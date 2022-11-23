@@ -37,7 +37,7 @@ const Home = () => (
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         css={{ backdropFilter: "blur(10px)" }}
       >
-        Hello, I'm Full Stack web developer based in Germany!
+        Hello, I am Full Stack web developer based in Germany!
       </Box>
 
       <Box display={{ md: "flex" }}>
@@ -117,7 +117,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>January 05, 2021</BioYear>
-          Completed the Bachelor's Program in the Software Engineering
+          Completed the Bachelor&apos;s Program in the Software Engineering
           at merhan UET, Jamshoro, Pakistan
         </BioSection>
         <BioSection>

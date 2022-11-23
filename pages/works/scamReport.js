@@ -18,7 +18,7 @@ const Work = () => (
         Scam Report <Badge>2022-</Badge>
       </Title>
       <P>
-        A Web Application, where a user can check url if it's scam or not. along
+        A Web Application, where a user can check url if it&apos;s scam or not. along
         with it, a user can post the scam report of any url he has faced
       </P>
       <List ml={4} my={4}>
