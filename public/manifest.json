@@ -1,12 +1,12 @@
 {
-    "theme_color": "#f69435",
-    "background_color": "#f69435",
+    "theme_color": "#202028",
+    "background_color": "#202023",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "NextJs PWA",
-    "short_name": "Next PWA",
-    "description": "This is just a demo for pwa in nextjs App",
+    "name": "My Portfolio",
+    "short_name": "Portfolio",
+    "description": "This is my own Portfolio Application",
     "icons": [
         {
             "src": "/icon-192x192.png",

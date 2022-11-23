@@ -1,6 +1,7 @@
 {
-  "name": "nextjs-pwa",
+  "name": "classyportfolio",
   "version": "0.1.0",
+  "description": "Fida Hussain's Portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,16 +9,26 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [],
+  "author": "fidahussain.sw31@gmail.com",
+  "license": "MIT",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.12",
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
+    "framer-motion": "^7.6.9",
     "next": "13.0.4",
     "next-pwa": "^5.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "three": "^0.146.0",
     "typescript": "4.9.3"
   }
 }
