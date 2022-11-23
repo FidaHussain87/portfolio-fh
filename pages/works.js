@@ -17,7 +17,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="scamReport" title="Scam Report" thumbnail={thumbScamReport}>
-           A Web Application, where a user can check url if it's scam or not. along with it, 
+           A Web Application, where a user can check url if it&apos;s scam or not. along with it, 
            a user can post the scam report of any url he has faced
           </WorkGridItem>
         </Section>
