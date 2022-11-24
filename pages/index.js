@@ -139,7 +139,7 @@ const Home = () => (
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I{" "}
-          <span style={{ color: "red" }} n>
+          <span style={{ color: "red" }}>
             ♥
           </span>
         </Heading>
