@@ -17,9 +17,14 @@ import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { GridItem } from "../components/grid-item";
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from "react-icons/io5";
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoFacebook,
+} from "react-icons/io5";
 import thumbYouTube from "../public/images/links/youtube.jpg";
-import thumbInkdrop from "../public/images/works/webapp.png";
+import thumbMeetup from "../public/images/works/webapp.png";
 import Image from "next/image";
 
 const ProfileImage = chakra(Image, {
@@ -64,7 +69,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/fida.JPG"
+              src="/images/fida.jpg"
               alt="Profile image"
               borderRadius="full"
               width={100}
@@ -79,8 +84,8 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Fida is a freelancer and a full-stack developer based in Germany with a
-          passion for building digital services/stuff he wants. He has a knack
+          Fida is a freelancer and a full-stack developer based in Germany with
+          a passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           outing with friends. Currently, he is living off of his own product
@@ -117,8 +122,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>January 05, 2021</BioYear>
-          Completed the Bachelor&apos;s Program in the Software Engineering
-          at merhan UET, Jamshoro, Pakistan
+          Completed the Bachelor&apos;s Program in the Software Engineering at
+          merhan UET, Jamshoro, Pakistan
         </BioSection>
         <BioSection>
           <BioYear>Aug 23, 2021 - July 30, 2022</BioYear>
@@ -126,13 +131,17 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>November 28, 2020 to present</BioYear>
-          Working as a freelancer <span style={{color:"#00b22d"}}>(Fiverr.com)</span>
+          Working as a freelancer{" "}
+          <span style={{ color: "#00b22d" }}>(Fiverr.com)</span>
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I <spa style={{color:"red"}}n>♥</spa>
+          I{" "}
+          <span style={{ color: "red" }} n>
+            ♥
+          </span>
         </Heading>
         <Paragraph>
           GYM, Music,{" "}
@@ -186,7 +195,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/fidahussain_rk/" target="_blank">
+            <Link
+              href="https://www.instagram.com/fidahussain_rk/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -209,7 +221,7 @@ const Home = () => (
           <GridItem
             href="https://next-js-meetup-app-beryl.vercel.app/"
             title="Meetup"
-            thumbnail={thumbInkdrop}
+            thumbnail={thumbMeetup}
           >
             A Meetup app
           </GridItem>
