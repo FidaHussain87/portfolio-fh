@@ -8,9 +8,6 @@ const withPWA = require("next-pwa")({
 const nextConfig = withPWA({
   reactStrictMode: true,
   swcMinify: true,
-
-  source: "",
-  destination: "https://craftzdog.global.ssl.fastly.net/homepage",
 });
 
 module.exports = nextConfig;
